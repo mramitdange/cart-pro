@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .card img {
+            width: 250px;
+            height: 200px;
+            object-fit: cover;
+           align-items: center;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .card-price {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .card-button {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .card-button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="C:\Users\amitd\OneDrive\Desktop\ICP-9-1\assignment17\img\1.jpeg" alt="Product Image">
+        <div class="card-content">
+            <h2 class="card-title">Product 1</h2>
+            <p class="card-price">$19.99</p>
+            <a href="#" class="card-button">Buy Now</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="C:\Users\amitd\OneDrive\Desktop\ICP-9-1\assignment17\img\2.jpeg" alt="Product Image">
+        <div class="card-content">
+            <h2 class="card-title">Product 2</h2>
+            <p class="card-price">29.99</p>
+            <a href="#" class="card-button">Buy Now</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="C:\Users\amitd\OneDrive\Desktop\ICP-9-1\assignment17\img\3.jpeg" alt="Product Image">
+        <div class="card-content">
+            <h2 class="card-title">Product 3</h2>
+            <p class="card-price">39.99</p>
+            <a href="#" class="card-button">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>
