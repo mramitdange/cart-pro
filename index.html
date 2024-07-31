@@ -16,7 +16,7 @@
             margin: 0;
         }
         .card {
-            background-color: #fff;
+            background-color: #e0abab;
             border: 1px solid #ddd;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -25,11 +25,18 @@
             overflow: hidden;
             transition: transform 0.2s;
         }
+        .del{
+            color: red;
+        }
+        .img-align{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
         .card img {
             width: 250px;
             height: 200px;
             object-fit: cover;
-           align-items: center;
         }
         .card-content {
             padding: 20px;
@@ -59,26 +66,32 @@
 </head>
 <body>
     <div class="card">
-        <img src="C:\Users\amitd\OneDrive\Desktop\ICP-9-1\assignment17\img\1.jpeg" alt="Product Image">
+        <div class="img-align">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.ar4xuVmsxvBYuwGToUUaVAHaHa&pid=Api&P=0&h=180" alt="Product Image">
+        </div>
         <div class="card-content">
             <h2 class="card-title">Product 1</h2>
-            <p class="card-price">$19.99</p>
+            <p class="card-price">999  <del class="del">2000</del></p>
             <a href="#" class="card-button">Buy Now</a>
         </div>
     </div>
     <div class="card">
-        <img src="C:\Users\amitd\OneDrive\Desktop\ICP-9-1\assignment17\img\2.jpeg" alt="Product Image">
+        <div class="img-align">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.AP9Vf-uAr0Onk9ySTqc5mwHaHa&pid=Api&P=0&h=180" alt="Product Image">
+        </div>
         <div class="card-content">
             <h2 class="card-title">Product 2</h2>
-            <p class="card-price">29.99</p>
+            <p class="card-price">1999  <del class="del">3999</del></p>
             <a href="#" class="card-button">Buy Now</a>
         </div>
     </div>
     <div class="card">
-        <img src="C:\Users\amitd\OneDrive\Desktop\ICP-9-1\assignment17\img\3.jpeg" alt="Product Image">
+        <div class="img-align">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.4Z0MuYPmQiwULAW0flxLjgHaHa&pid=Api&P=0&h=180" alt="Product Image">
+        </div>
         <div class="card-content">
             <h2 class="card-title">Product 3</h2>
-            <p class="card-price">39.99</p>
+            <p class="card-price">799  <del class="del">1599</del></p>
             <a href="#" class="card-button">Buy Now</a>
         </div>
     </div>
